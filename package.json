@@ -12,5 +12,6 @@
 	"dependencies": {
 		"data-s3": "^1.2.3",
 		"dotenv": "^16.0.1"
-	}
+	},
+	"type": "module"
 }
