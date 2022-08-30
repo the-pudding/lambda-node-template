@@ -9,10 +9,10 @@
 
 ## deploy
 
-### build
+## build
 - run `make upload`
 
-### AWS integration
+## AWS integration
 - in AWS, go to the Lambda service
 - click `Create function` button
 	- Function name: (mimic repo name)
