@@ -46,5 +46,5 @@ You can run the code by clicking `Test` whenever to manually execute the script.
 - Select `Create a new rule`
 	- Rule name: `cloudwatch-` + lambda function name
 	- Rule type: `Schedule expression`
-		- example: every 10 minutes `cron(0/10 * * * ? *)`
-		- [https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html](docs)
+		- example: every 10 minutes `rate(10 minutes)` or `cron(0/10 * * * ? *)`
+		- [https://docs.aws.amazon.com/lambda/latest/dg/services-cloudwatchevents-expressions.html](docs)
