@@ -28,7 +28,7 @@
 ### Configuration tab 
 #### General configuration
 - Click `Edit`
-	- Memory: `default` or `1024` or more for large data processing
+	- Memory: `1024` or more for large data processing
 	- Timeout: `1 min` or `10 min` for long running tasks
 #### Environmental variables
 - Fill in as needed
