@@ -48,3 +48,6 @@ You can run the code by clicking `Test` whenever to manually execute the script.
 	- Rule type: `Schedule expression`
 		- example: every 10 minutes `rate(10 minutes)` or `cron(0/10 * * * ? *)`
 		- [https://docs.aws.amazon.com/lambda/latest/dg/services-cloudwatchevents-expressions.html](docs)
+
+### Misc
+* When installing new dependecies, make sure they are in "depedencies" not "devDependencies"
