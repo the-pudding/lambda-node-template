@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "data-s3": "^1.2.3",
+    "data-s3": "^2.0.0",
     "dotenv": "^16.3.1"
   },
   "type": "module"
